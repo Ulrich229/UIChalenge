@@ -108,6 +108,7 @@ class HomeScreen extends StatelessWidget {
                                 name: 'Elia Smith',
                                 link: 'Smartlink.to/887rt7rt',
                                 type: true,
+                                nbVisitors: '12K',
                               ),
                               SizedBox(
                                 height: 10,
@@ -116,6 +117,7 @@ class HomeScreen extends StatelessWidget {
                                 name: 'Feed Basten',
                                 link: 'Smartlink.to/876rt7as',
                                 type: false,
+                                nbVisitors: '9K',
                               ),
                               SizedBox(
                                 height: 10,
@@ -124,6 +126,7 @@ class HomeScreen extends StatelessWidget {
                                 name: 'Jhon Leman',
                                 link: 'Smartlink.to/567rc677',
                                 type: false,
+                                nbVisitors: '7K',
                               ),
                             ],
                           ),
@@ -137,7 +140,10 @@ class HomeScreen extends StatelessWidget {
               ],
             ),
           ),
-          BottomBar()
+          Padding(
+            padding: const EdgeInsets.only(bottom:8.0),
+            child: Align(alignment: Alignment.bottomCenter,child: BottomBar()),
+          )
         ],
       ),
     );

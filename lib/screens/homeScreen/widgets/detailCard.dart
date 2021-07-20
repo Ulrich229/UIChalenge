@@ -8,7 +8,8 @@ class DetailCard extends StatelessWidget {
   final String name;
   final String link;
   final bool type;
-  DetailCard({@required this.name, @required this.link, @required this.type});
+  final String nbVisitors;
+  DetailCard({@required this.name, @required this.link, @required this.type, @required this.nbVisitors});
 
   @override
   Widget build(BuildContext context) {
@@ -61,7 +62,7 @@ class DetailCard extends StatelessWidget {
                 children: [
                   CardButton(
                     iconPath: 'assets/icons/analytics.png',
-                    text: '12K Visitor',
+                    text: '$nbVisitors Visitor',
                     color: type?white:darkBlue2,
                   ),
                   CardButton(

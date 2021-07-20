@@ -7,10 +7,7 @@ class BottomBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Size deviceSize = MediaQuery.of(context).size;
-    return Center(
-      child: Padding(
-        padding: EdgeInsets.only(top: 590),
-        child: Container(
+    return Container(
           height: 70,
           width: deviceSize.width / 1.8,
           decoration: BoxDecoration(
@@ -25,9 +22,7 @@ class BottomBar extends StatelessWidget {
               BottomButton(iconPath: 'assets/icons/grid.png', backgroundColor: darkBlue1,),
             ],
           ),
-        ),
-      ),
-    );
+        );
   }
 }
 

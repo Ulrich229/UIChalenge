@@ -16,6 +16,7 @@ class CardButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final deviceSize = MediaQuery.of(context).size;
     return Container(
+          padding: EdgeInsets.all(8),
           width: deviceSize.width / 4.5,
           height: 35,
           decoration: BoxDecoration(

@@ -5,8 +5,8 @@ import '../../../colors.dart';
 class DottedLines extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-        padding: const EdgeInsets.symmetric(horizontal:49.0, vertical: 5.0),
+    return Container(
+        width: 2,
         child: ListView.separated(
           padding: EdgeInsets.all(0),
           shrinkWrap: true,
@@ -15,7 +15,6 @@ class DottedLines extends StatelessWidget {
                 padding: EdgeInsets.all(0),
                 margin: EdgeInsets.all(0),
                 height: 5,
-                width: 2,
                 color: pink,
               );
             },

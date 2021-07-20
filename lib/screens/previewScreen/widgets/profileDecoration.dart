@@ -14,7 +14,7 @@ class ProfileDecoration extends StatelessWidget {
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         border: Border.all(
-        color: grey.withOpacity(0.7),
+        color: grey.withOpacity(0.3),
         width: 1,
         )
       ),
@@ -25,8 +25,8 @@ class ProfileDecoration extends StatelessWidget {
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         border: Border.all(
-        color: grey.withOpacity(0.7),
-        width: 2,
+        color: grey.withOpacity(0.3),
+        width: 3,
         )
       ),
       child: Container(
@@ -36,7 +36,7 @@ class ProfileDecoration extends StatelessWidget {
         decoration: BoxDecoration(
           shape: BoxShape.circle,
           border: Border.all(
-        color: grey.withOpacity(0.7),
+        color: grey.withOpacity(0.3),
         width: 1,
         )
         ),
